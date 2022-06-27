@@ -46,8 +46,8 @@ int main()
     dp = new int *[N + 1];
     for (int i = 0; i <= N; ++i)
     {
-        dp[i] = new int[M + 1];
-        for (int j = 0; j <= M; ++j)
+        dp[i] = new int[M + 2];
+        for (int j = 0; j <= M + 1; ++j)
             dp[i][j] = -1;
     }
 
